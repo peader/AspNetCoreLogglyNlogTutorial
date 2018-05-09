@@ -36,7 +36,7 @@ namespace AspNetCoreNlogLoggly
                 app.UseDeveloperExceptionPage();
             }
             loggerFactory.AddNLog();
-            env.ConfigureNLog("nlog.config");
+            env.ConfigureNLog("NLog.config");
             app.UseMvc();
         }
     }
